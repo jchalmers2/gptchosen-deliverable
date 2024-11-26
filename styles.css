@@ -52,10 +52,10 @@ p, ul{
 }
 
 ol {
-    background-image: linear-gradient(0deg, #80acbc, white 3%, white 97%, #80acbc);
+    background-image: linear-gradient(0deg, #80acbc, white 5%, white 95%, #80acbc);
     list-style: none;
     width: 90%;
-    padding: 1.5em 0 1.5em 0;
+    padding: 1.5em 5% 1.5em 5%;
     margin: 0;
     text-align: left;
     font-size: 2.5em;
@@ -67,12 +67,31 @@ ol strong {
     padding-bottom: 0.5em;
 }
 
-ol li {
-    background-image: none;
+li {
     padding: 0.5em 0em 0.5em 0em;
 }
 
-.video video {
-    width: 60%;
+video {
+    width: 40%;
     height: auto;
+    margin-bottom: 2em;
+}
+
+.video-container {
+    background-image: linear-gradient(90deg, #80acbc, white 30%, white 70%, #80acbc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-container h3 {
+    background-image: linear-gradient(90deg, #80acbc, white 30%, white 70%, #80acbc);
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+.gen-ai-explanation p {
+    background-image: linear-gradient(0deg, white 95%, #80acbc);
 }
